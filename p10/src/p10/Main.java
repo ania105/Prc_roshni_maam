@@ -9,16 +9,23 @@ public class Main {
 
         if (input.length() > 1) {
             System.out.println("Error: Please enter a single character.");
-        } else {
+        } 
+        else {
             char letter = input.charAt(0);
             if ((letter >= 'a' && letter <= 'z') || (letter >= 'A' && letter <= 'Z')) {
+            	
                 letter = Character.toLowerCase(letter);
-                if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') {
+                if (letter == 'a' || letter == 'e' || letter == 'i' || letter == 'o' || letter == 'u') 
+                {
                     System.out.println("Vowel");
-                } else {
+                } 
+                else 
+                {
                     System.out.println("Consonant");
                 }
-            } else {
+            } 
+            else 
+            {
                 System.out.println("Error: Please enter a valid alphabetical character.");
             }
         }
