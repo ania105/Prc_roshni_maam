@@ -5,7 +5,7 @@ class Shape {
 	public double height,width;
 	public double side1,side2,side3;
 	
-	public Shape() {}
+	
 	
 	public double area() {
 		return 0;
