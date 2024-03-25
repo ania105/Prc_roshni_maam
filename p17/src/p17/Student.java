@@ -5,6 +5,7 @@ class std{
 	int id;
 	String name;
 	double m1,m2,m3;
+	
 	public void setdata() {
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter Student ID: ");
