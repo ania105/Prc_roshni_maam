@@ -5,6 +5,7 @@ public class Main {
 	public static void main(String[] args) {
 		int m,n,sum=0;
 		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter digits: ");
 		m = sc.nextInt();
 		
 		while(m>0) {
