@@ -19,7 +19,7 @@ public class Main {
 		System.out.println("4. Replace: "+ sb);
 		
 		String substring = sb.substring(2, 6);
-		System.out.println("5. Substring: "+sb);
+		System.out.println("5. Substring: "+substring);
 	}
 
 }
