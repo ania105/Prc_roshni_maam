@@ -6,9 +6,7 @@ public class Main {
 		Thread thread1 = new Thread(new CountTask(1,5));
 		thread1.start();
 		
-		Thread thread2 = new Thread(new CountTask(6,10));
-		thread2.start();
-
+		
 	}
 static class CountTask implements Runnable{
 	private int start, end;
